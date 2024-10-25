@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Space Invaders</title>
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Space Invaders</h1>
+    <canvas id="gameCanvas"></canvas>
+    <div class="game-info">
+      <p id="score">Score: 0</p>
+      <p id="lives">Lives: 3</p>
+    </div>
+    <div class="controls">
+      <button id="startButton">Start Game</button>
+      <button id="leftButton" class="direction-button">←</button>
+      <button id="rightButton" class="direction-button">→</button>
+      <button id="fireButton">Fire</button>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
